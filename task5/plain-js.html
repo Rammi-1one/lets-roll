@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title preview without Vue – Let's Roll</title>
+</head>
+<body>
+  <label for="title">Title</label>
+  <input id="title" type="text">
+  <p>Preview: <strong id="preview">Your title appears here</strong></p>
+  <button type="button" id="clear">Clear</button>
+
+  <script>
+    // Without Vue, every direction of the update must be written by hand.
+    const input = document.getElementById('title');
+    const preview = document.getElementById('preview');
+
+    // 1) Input -> data -> page
+    input.addEventListener('input', () => {
+      preview.textContent = input.value.trim() || 'Your title appears here';
+    });
+
+    // 2) Data -> input: resetting must update the field AND the preview separately
+    document.getElementById('clear').addEventListener('click', () => {
+      input.value = '';
+      preview.textContent = 'Your title appears here';
+    });
+  </script>
+</body>
+</html>

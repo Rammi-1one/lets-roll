@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t">
+  <title id="t">Drawing of an oak dining table</title>
+  <rect width="640" height="400" fill="#f4efe6"/>
+  <rect x="0" y="300" width="640" height="100" fill="#e2d6c3"/>
+  <rect x="110" y="150" width="420" height="34" rx="6" fill="#b5834f"/>
+  <rect x="110" y="178" width="420" height="10" fill="#8f6438"/>
+  <rect x="140" y="188" width="26" height="150" fill="#9c6d3e"/>
+  <rect x="474" y="188" width="26" height="150" fill="#9c6d3e"/>
+  <rect x="196" y="188" width="18" height="120" fill="#8a5f34"/>
+  <rect x="426" y="188" width="18" height="120" fill="#8a5f34"/>
+  <path d="M230 160 q40 -6 80 0" stroke="#d6a873" stroke-width="3" fill="none"/>
+  <path d="M360 166 q30 -5 70 0" stroke="#d6a873" stroke-width="3" fill="none"/>
+</svg>
